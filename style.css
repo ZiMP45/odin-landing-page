@@ -2,10 +2,6 @@
     border: 1px solid black;
 }
 
-body {
-    font-family: extra-bold;
-}
-
 .header {
     display: flex;
     background-color: #1F2937;
@@ -36,15 +32,27 @@ a {
     display: flex;
     background-color: #1F2937;
     justify-content: center;
+    align-items: center;
     gap: 24px;
-    padding-left: 64px;
-    padding-right: 64px;
+    padding: 64px 96px;
+}
+
+.container-1-box {
+    display: flex;
+    width: 900px;
 }
 
 .awesome {
     display: flex;
     flex-direction: column;
-    max-width: 750px;
+    width: 450px;
+}
+
+.img-1 {
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
 }
 
 h2 {
