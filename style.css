@@ -1,5 +1,9 @@
-* {
+/* * {
     border: 1px solid black;
+} */
+
+body {
+    margin: 0;
 }
 
 .header {
@@ -31,8 +35,7 @@ a {
 .container-1 {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-between;
-    align-items: stretch;
+    justify-content: space-evenly;
     gap: 24px;
     padding: 64px 96px;
 }
@@ -141,38 +144,42 @@ h3 {
 
 .container-3 {
     background-color: #E5E7Eb;
-    display: flex;
     flex-direction: column;
-    padding: 50px 100px;
-    align-items: center;
+    padding: 48px 200px;
+    justify-content: space-evenly;
 }
 
 .quote {
     color: #1F2937;
     font-size: 36px;
-    width: 800px;
+    justify-content: flex-start;
 }
 
 .author {
     padding-top: 10px;
-    text-align: end;
-    width: 800px;
+    justify-content: flex-end;
+}
+
+.quote,
+.author {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .container-4 {
     display: flex;
     text-align: center;
-    justify-content: center;
-    padding: 48px 0px;
+    justify-content: space-around;
+    padding: 48px 200px;
 }
 
 .blue-box {
     display: flex;
-    flex-direction: row;
+    flex: 1;
     padding: 24px;
     color: white;
     background-color: #3882F6;
-    width: 900px;
     border-radius: 4px;
     justify-content: space-evenly;
 }
