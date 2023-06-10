@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid black;
-}
+} */
 
 .header {
     display: flex;
@@ -39,17 +39,24 @@ a {
 
 .container-1-box {
     display: flex;
-    width: 900px;
+    width: 1000px;
 }
 
 .awesome {
     display: flex;
     flex-direction: column;
-    width: 450px;
+    width: 500px;
+}
+
+.awesome button {
+    border: none;
+    padding: 8px 4px;
+    width: 120px;
+    margin-top: 8px;
 }
 
 .img-1 {
-    width: 450px;
+    width: 500px;
     align-items: center;
     justify-content: center;
     color: #F9FAF8;
@@ -59,14 +66,19 @@ h2 {
     display: flex;
     font-size: 48px;
     font: bold;
-    color: #F9FAF8
+    color: #F9FAF8;
+    padding-right: 12px;
+    margin: 0;
 }
 
 h5 {
     display: flex;
     flex-wrap: wrap;
     font-size: 18px;
-    color:#E5E7Eb
+    color:#E5E7Eb;
+    padding-right: 12px;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 .img-1 {
