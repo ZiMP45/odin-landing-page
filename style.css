@@ -75,6 +75,59 @@ button {
     color: white;
 }
 
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.container-2-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    max-width: 750px;
+}
+
+.box {
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.text {
+    display: flex;
+    text-align: center;
+    word-wrap: normal;
+    flex-wrap: wrap;
+}
+
+.container-3 {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    max-width: 900px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.author {
+    padding-top: 10px;
+    text-align: end;
+}
+
 .container-4 {
     display: flex;
     text-align: center;
@@ -87,8 +140,6 @@ button {
     padding: 24px;
     color: white;
     background-color: #3882F6;
-    max-width: 750px;
-}
-
-.stack {
+    max-width: 900px;
+    
 }
